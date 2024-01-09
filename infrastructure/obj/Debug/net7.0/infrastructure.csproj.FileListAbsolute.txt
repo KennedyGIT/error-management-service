@@ -1,0 +1,17 @@
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\bin\Debug\net7.0\infrastructure.deps.json
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\bin\Debug\net7.0\infrastructure.runtimeconfig.json
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\bin\Debug\net7.0\infrastructure.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\bin\Debug\net7.0\infrastructure.pdb
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\bin\Debug\net7.0\core.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\bin\Debug\net7.0\core.pdb
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.csproj.AssemblyReference.cache
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.AssemblyInfoInputs.cache
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.AssemblyInfo.cs
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.csproj.CopyComplete
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\refint\infrastructure.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.pdb
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.genruntimeconfig.cache
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\ref\infrastructure.dll

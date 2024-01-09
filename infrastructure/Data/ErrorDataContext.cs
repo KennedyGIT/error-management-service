@@ -1,5 +1,6 @@
 ﻿using core.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace infrastructure.Data
 {
@@ -8,5 +9,12 @@ namespace infrastructure.Data
         public ErrorDataContext(DbContextOptions<ErrorDataContext> options): base(options) { }
 
         public DbSet<ErrorEntity> ErrorEntities { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
     }
 }

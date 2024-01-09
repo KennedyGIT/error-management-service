@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pajuno Projects\\icard_error_management_service\\API\\infrastructure\\infrastructure.csproj": {}
+    "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\infrastructure\\infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\core.csproj": {
+    "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\core.csproj",
+        "projectUniqueName": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\core.csproj",
+        "projectPath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\core.csproj",
         "packagesPath": "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\",
-        "outputPath": "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\obj\\",
+        "outputPath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Pajuno Projects\\icard_error_management_service\\API\\infrastructure\\infrastructure.csproj": {
+    "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\infrastructure\\infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pajuno Projects\\icard_error_management_service\\API\\infrastructure\\infrastructure.csproj",
+        "projectUniqueName": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\infrastructure\\infrastructure.csproj",
         "projectName": "infrastructure",
-        "projectPath": "C:\\Pajuno Projects\\icard_error_management_service\\API\\infrastructure\\infrastructure.csproj",
+        "projectPath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\infrastructure\\infrastructure.csproj",
         "packagesPath": "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\",
-        "outputPath": "C:\\Pajuno Projects\\icard_error_management_service\\API\\infrastructure\\obj\\",
+        "outputPath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\core.csproj": {
-                "projectPath": "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\core.csproj"
+              "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\core.csproj": {
+                "projectPath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\core.csproj"
               }
             }
           }
@@ -106,6 +106,22 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
             },

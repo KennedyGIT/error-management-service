@@ -1,0 +1,12 @@
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\bin\Debug\net7.0\core.deps.json
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\bin\Debug\net7.0\core.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\bin\Debug\net7.0\core.pdb
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\core.AssemblyInfoInputs.cache
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\core.AssemblyInfo.cs
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\core.csproj.CoreCompileInputs.cache
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\core.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\refint\core.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\core.pdb
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\ref\core.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\core\obj\Debug\net7.0\core.csproj.AssemblyReference.cache

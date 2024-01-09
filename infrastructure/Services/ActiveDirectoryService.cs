@@ -12,6 +12,7 @@ namespace infrastructure.Services
         {
             _configuration = configuration;
         }
+
         public async Task<bool> ValidateActiveDirectoryCredentials(string username, string password)
         {
             string adServerIpAddress = _configuration["ADServer:IP"];

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CzRViUkQ6nBDKhygykAKbGgg0DNhV7MA5znfaENlXAe31mmWk/qTNqLm74vox9c3Gczph3OO/m6BY9ovoaYGyQ==",
+  "dgSpecHash": "rOQ0l0QVBfMztjWnPAJst4V9NaaBITxeH3rUXydCxP9Kmbe03nT/xJ56clfFxZC+M/VuCmU6kxrIqBOSg+6IPw==",
   "success": true,
-  "projectFilePath": "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\core.csproj",
+  "projectFilePath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

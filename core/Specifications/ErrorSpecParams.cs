@@ -12,9 +12,11 @@
             set => _pageSize = (value > MaxPageSize) ? MaxPageSize : value;
         }
 
-        public DateTime? LastUpdateDate { get; set; }
+        public int Version { get; set; }
         
         public string Sort { get; set; }
+
+
         private string _search;
         public string Search
         {

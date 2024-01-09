@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\core.csproj",
+      "projectUniqueName": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\core.csproj",
       "projectName": "core",
-      "projectPath": "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\core.csproj",
+      "projectPath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\core.csproj",
       "packagesPath": "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\",
-      "outputPath": "C:\\Pajuno Projects\\icard_error_management_service\\API\\core\\obj\\",
+      "outputPath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
