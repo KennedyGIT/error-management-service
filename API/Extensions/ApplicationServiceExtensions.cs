@@ -15,6 +15,8 @@ namespace API.Extensions
             {
                 opt.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
+
+
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IErrorService, ErrorService>();
             services.AddScoped<IActiveDirectoryService, ActiveDirectoryService>();

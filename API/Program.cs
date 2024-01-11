@@ -7,14 +7,17 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddApplicationServices(builder.Configuration);
-builder.Services.AddSwaggerDocumentation();
+builder.Services.AddSwaggerGen();
+//builder.Services.AddSwaggerDocumentation();
 
 var app = builder.Build();
 
+app.UseMiddleware<JWTMiddleware>();
 app.UseMiddleware<ExceptionMiddleware>();
 
-// Configure the HTTP request pipeline.
+//Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -22,6 +25,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("CorsPolicy");
+
 
 app.UseAuthorization();
 

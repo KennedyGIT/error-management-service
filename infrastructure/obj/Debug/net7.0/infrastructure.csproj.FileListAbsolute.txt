@@ -9,6 +9,7 @@ C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infras
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.AssemblyInfoInputs.cache
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.AssemblyInfo.cs
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.sourcelink.json
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.csproj.CopyComplete
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\infrastructure.dll
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\infrastructure\obj\Debug\net7.0\refint\infrastructure.dll

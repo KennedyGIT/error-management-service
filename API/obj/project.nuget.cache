@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ywyQwF8eXCgjsAXoWpQUo5BUjXmPfEWDC2qR8dpMTIMyjeKlxHYScxV+dTL0FR6gI8Il7YX59t9BR9RW3Xy2nw==",
+  "dgSpecHash": "omAywz+1fppcEA5Su5yKavOY08Q0fenh3w0J4jiaE5uZ/WkHomztQXzq8y2+tPx5YwgScBqQACPUd83tUKfBLA==",
   "success": true,
   "projectFilePath": "C:\\Kennedy Projects\\Self Development\\kennedy_git\\error-management-service\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
     "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Kennedy-Pajuno\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

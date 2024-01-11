@@ -4,12 +4,13 @@ using API.Helpers;
 using core.Entities;
 using core.Interfaces;
 using core.Specifications;
-using Microsoft.AspNetCore.Authorization;
+using API.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
-    [Authorize]
+    [Authorization.Authorize]
     public class ErrorController : BaseApiController
     {
         private readonly IErrorService errorService;
@@ -32,16 +33,24 @@ namespace API.Controllers
         {
             if (errorDto == null) return BadRequest(new ApiResponse(400));
 
+            var spec = new ErrorCodeSpecification(errorDto.ErrorCode);
+
+            var totalItems = await errorRepo.CountAsync(spec);
+
+            if(totalItems > 0) { return BadRequest(new ApiResponse(400, "Error code already exists")); }
+
+            var user = (UserEntity)httpContextAccessor.HttpContext.Items["User"];
+
             var errorEntity = new ErrorEntity()
             {
                 ErrorTitle = errorDto.ErrorTitle,
                 ErrorCode = errorDto.ErrorCode,
                 ErrorDescription = errorDto.ErrorDescription,
                 CreatedAt = DateTime.UtcNow,
-                CreatedBy = httpContextAccessor.HttpContext?.User?.Identity?.Name,
+                CreatedBy = user.Username,
                 Version = 1,
                 UpdatedAt= DateTime.UtcNow,
-                UpdatedBy = httpContextAccessor.HttpContext?.User?.Identity?.Name,
+                UpdatedBy = user.Username,
 
             };
 
@@ -57,17 +66,28 @@ namespace API.Controllers
 
             if (existingError == null) return NotFound(new ApiResponse(404));
 
-            existingError.Version = existingError.Version++;
+            var spec = new ErrorCodeSpecification(errorDto.ErrorCode);
+
+            var totalItems = await errorRepo.CountAsync(spec);
+
+            if (existingError.ErrorCode != errorDto.ErrorCode)
+            {
+                if (totalItems > 0) { return BadRequest(new ApiResponse(400, "Error code already exists")); }
+            }
+
+            var user = (UserEntity)httpContextAccessor.HttpContext.Items["User"];
+
+            existingError.Version = existingError.Version + 1;
 
             existingError.UpdatedAt = DateTime.UtcNow;
 
-            existingError.UpdatedBy = httpContextAccessor.HttpContext?.User?.Identity?.Name;
+            existingError.UpdatedBy = user.Username;
 
-            existingError.ErrorCode = string.IsNullOrEmpty(errorDto.ErrorCode) ? errorDto.ErrorCode : existingError.ErrorCode;
+            existingError.ErrorCode = !string.IsNullOrEmpty(errorDto.ErrorCode) ? errorDto.ErrorCode : existingError.ErrorCode;
 
-            existingError.ErrorDescription = string.IsNullOrEmpty(errorDto.ErrorDescription) ? errorDto.ErrorDescription : existingError.ErrorDescription;
+            existingError.ErrorDescription = !string.IsNullOrEmpty(errorDto.ErrorDescription) ? errorDto.ErrorDescription : existingError.ErrorDescription;
 
-            existingError.ErrorTitle = string.IsNullOrEmpty(errorDto.ErrorTitle) ? errorDto.ErrorTitle : existingError.ErrorTitle;
+            existingError.ErrorTitle = !string.IsNullOrEmpty(errorDto.ErrorTitle) ? errorDto.ErrorTitle : existingError.ErrorTitle;
 
             await errorService.UpdateError(existingError);
 
@@ -75,6 +95,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
+        [Authorization.AllowAnonymous]
         public async Task<ActionResult<Pagination<ErrorDto>>> GetErrors([FromQuery] ErrorSpecParams errorSpecParams)
         {
             var spec = new AllErrorsSpecification(errorSpecParams);
@@ -100,6 +121,8 @@ namespace API.Controllers
                     ErrorDescription = errorEntity.ErrorDescription,
                     ErrorTitle = errorEntity.ErrorTitle,
                     Version = errorEntity.Version,
+                    CreatedAt = errorEntity.CreatedAt,
+                    UpdatedAt = errorEntity.UpdatedAt,
                     Id = errorEntity.Id
                 });
             }

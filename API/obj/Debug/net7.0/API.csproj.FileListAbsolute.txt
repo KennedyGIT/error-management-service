@@ -10,6 +10,7 @@ C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\bi
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\bin\Debug\net7.0\Azure.Core.dll
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\bin\Debug\net7.0\Azure.Identity.dll
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\bin\Debug\net7.0\Humanizer.dll
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
@@ -74,13 +75,14 @@ C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\ob
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\API.sourcelink.json
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets.development.json
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets.build.json
-C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\staticwebassets.development.json
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\API.csproj.CopyComplete
 C:\Kennedy Projects\Self Development\kennedy_git\error-management-service\API\obj\Debug\net7.0\API.dll

@@ -2,11 +2,12 @@
 using API.Errors;
 using core.Entities;
 using core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-
+    [AllowAnonymous]
     public class AccountController : BaseApiController
     {
         private readonly ITokenService _tokenService;
